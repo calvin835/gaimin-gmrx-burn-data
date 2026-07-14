@@ -1,0 +1,1 @@
+# GMRX Burn Data\n\nPublic mirror of verified GMRX ERC-20 `Transfer` logs into `0x000000000000000000000000000000000000dEaD`.\n\nSource monitor: `calvin835/gaimin-gmrx-burn-dashboard`. The dashboard validates token, contract, burn address, transaction hashes, timestamps, and amounts before use.\n
