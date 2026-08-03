@@ -15,7 +15,13 @@
     "chunkMaxRange": 5000,
     "rescanBlocks": 50000,
     "mode": "incremental",
-    "transferTopic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+    "transferTopic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "emergencyRecovery": {
+      "verifiedAt": "2026-08-03T15:06:15.261Z",
+      "source": "bscscan-verified-event-logs",
+      "fromBlock": 112978545,
+      "throughBlock": 113798365
+    }
   },
   "transfers": [
     {
@@ -564,6 +570,19 @@
       "to": "0x000000000000000000000000000000000000dead",
       "amountGmrx": "7100346.992370381310894773",
       "valueRaw": "7100346992370381310894773",
+      "tokenDecimal": 18,
+      "sourceLabel": "Verified Burn"
+    },
+    {
+      "blockNumber": 112978545,
+      "logIndex": 275,
+      "timeStamp": "2026-07-30T08:33:19.000Z",
+      "date": "2026-07-30",
+      "hash": "0x8072015bfc246c4a1cf956c3c7de3cb5a27d3a85b7dd4a0c751683e1956d4844",
+      "from": "0xd3a93f64a8d00810fdfc495a6b7fece66f6f9a7e",
+      "to": "0x000000000000000000000000000000000000dead",
+      "amountGmrx": "30011",
+      "valueRaw": "30011000000000000000000",
       "tokenDecimal": 18,
       "sourceLabel": "Verified Burn"
     },
